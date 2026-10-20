@@ -149,7 +149,12 @@ export default function HomePage() {
               </span>
             </div>
 
-            {/* Action Buttons: APPLY NOW & EXPLORE MASTER PLAN */}
+            {/* Offer explained before the main action */}
+            <p className="text-xs sm:text-sm text-white/90 max-w-xl leading-relaxed">
+              <strong className="text-[#FDE68A]">What you get:</strong> share your details and our advisor will send you the project brochure, plot sizes &amp; availability, price details and site visit options. Free, with no obligation to book.
+            </p>
+
+            {/* Action Buttons: GET PROJECT DETAILS & EXPLORE MASTER PLAN */}
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-1">
               <button
                 onClick={() => openEnquiry('Get Project Details')}

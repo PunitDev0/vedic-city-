@@ -54,6 +54,8 @@ export default function Footer({ onOpenRegister, onOpenEnquire, onOpenBrochure, 
             <a href="/disclaimer" className="text-[#FDE68A] underline font-medium">Disclaimer</a>
             <span>•</span>
             <a href="/privacy-policy" className="text-[#FDE68A] underline font-medium">Privacy Policy</a>
+            <span>•</span>
+            <a href="/terms-and-conditions" className="text-[#FDE68A] underline font-medium">Terms</a>
           </div>
 
           {/* 3. Short Site Location */}
@@ -157,6 +159,15 @@ export default function Footer({ onOpenRegister, onOpenEnquire, onOpenBrochure, 
                   <a href="tel:+919211494111" className="hover:text-white font-semibold">
                     +91 92114 94111
                   </a>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Mail className="w-3.5 h-3.5 text-[#FDE68A] shrink-0" />
+                  <a href="mailto:info@pradhanmantriawasyojna.org" className="hover:text-white font-semibold">
+                    info@pradhanmantriawasyojna.org
+                  </a>
+                </div>
+                <div className="text-[11px] text-emerald-200/80 pt-1">
+                  Developer: Ebrix Home and More (Ebrix Infratech Real Estate LLP) • MahaRERA: PP1310002502621
                 </div>
               </div>
 
@@ -282,6 +293,10 @@ export default function Footer({ onOpenRegister, onOpenEnquire, onOpenBrochure, 
                 <span>•</span>
                 <a href="/privacy-policy" className="text-emerald-200/80 hover:text-[#FDE68A] underline transition">
                   Privacy Policy
+                </a>
+                <span>•</span>
+                <a href="/terms-and-conditions" className="text-emerald-200/80 hover:text-[#FDE68A] underline transition">
+                  Terms
                 </a>
                 <span>•</span>
                 <span>RERA Registered: PP1310002502621</span>
