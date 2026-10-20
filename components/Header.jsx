@@ -130,36 +130,30 @@ export default function Header() {
               <button onClick={() => openModal('Request Latest Price List')} className="hover:text-[#059669] hover:font-semibold transition py-1 relative text-left cursor-pointer">Price List</button>
               <a href="https://maharera.maharashtra.gov.in" target="_blank" rel="noopener noreferrer" className="hover:text-[#059669] hover:font-semibold transition py-1 relative">RERA License</a>
               <Link className="hover:text-[#059669] hover:font-semibold transition py-1 relative" href="/#amenities">Amenities</Link>
-              <Link className="hover:text-[#059669] hover:font-semibold transition py-1 relative" href="/#awards">Awards</Link>
+              <Link className="hover:text-[#059669] hover:font-semibold transition py-1 relative" href="/#awards">Wellness</Link>
               <Link className="hover:text-[#059669] hover:font-semibold transition py-1 relative" href="/#contact">Contact Us</Link>
             </nav>
 
             {/* Right Action Buttons */}
             <div className="hidden lg:flex items-center gap-2 xl:gap-3 shrink-0">
               <button
-                onClick={() => openModal('Enquire Now')}
-                className="px-3.5 xl:px-4 py-2 text-xs font-bold text-[#065F46] bg-emerald-50 hover:bg-[#065F46] hover:text-white border border-[#059669]/30 rounded-md transition shadow-xs cursor-pointer whitespace-nowrap"
-              >
-                Enquire Now
-              </button>
-              <button
-                onClick={() => openModal('Register for Plots Priority')}
+                onClick={() => openModal('Get Project Details')}
                 className="px-4 xl:px-5 py-2.5 text-xs font-extrabold text-white bg-gradient-to-r from-[#059669] to-[#047857] hover:from-[#047857] hover:to-[#065F46] rounded-md shadow-sm hover:shadow transition-all flex items-center gap-1.5 cursor-pointer active:scale-95 border border-emerald-400/40 whitespace-nowrap"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-[#FDE68A]">
                   <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path>
                 </svg>
-                Register Now
+                Get Project Details
               </button>
             </div>
 
             {/* Mobile Menu Button */}
             <div className="flex items-center gap-1.5 lg:hidden shrink-0">
               <button
-                onClick={() => openModal('Register for Plots Priority')}
+                onClick={() => openModal('Get Project Details')}
                 className="hidden xs:inline-flex px-2.5 py-1 text-[11px] font-bold text-white bg-[#059669] rounded-md shadow-xs cursor-pointer"
               >
-                Register
+                Get Details
               </button>
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -227,7 +221,7 @@ export default function Header() {
             <button onClick={() => openModal('Request Latest Price List')} className="block w-full text-left text-sm font-semibold text-slate-800 hover:text-[#059669] py-1 border-b border-slate-100">💰 Get Price List</button>
             <a href="https://maharera.maharashtra.gov.in" target="_blank" rel="noopener noreferrer" className="block text-sm font-semibold text-slate-800 hover:text-[#059669] py-1 border-b border-slate-100">🏛️ MahaRERA: PP1310002502621 ↗</a>
             <Link onClick={() => setMobileMenuOpen(false)} href="/#amenities" className="block text-sm font-semibold text-slate-800 hover:text-[#059669] py-1 border-b border-slate-100">Amenities & Lifestyle</Link>
-            <Link onClick={() => setMobileMenuOpen(false)} href="/#awards" className="block text-sm font-semibold text-slate-800 hover:text-[#059669] py-1 border-b border-slate-100">Awards & Honours</Link>
+            <Link onClick={() => setMobileMenuOpen(false)} href="/#awards" className="block text-sm font-semibold text-slate-800 hover:text-[#059669] py-1 border-b border-slate-100">Wellness Living</Link>
             <Link onClick={() => setMobileMenuOpen(false)} href="/disclaimer" className="block text-sm font-semibold text-slate-800 hover:text-[#059669] py-1 border-b border-slate-100">Statutory Disclaimer</Link>
             <Link onClick={() => setMobileMenuOpen(false)} href="/privacy-policy" className="block text-sm font-semibold text-slate-800 hover:text-[#059669] py-1 border-b border-slate-100">Privacy Policy</Link>
             

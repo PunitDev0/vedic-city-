@@ -35,13 +35,11 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingActions from "@/components/FloatingActions";
 
-import RegistrationModal from "@/components/RegistrationModal";
 import EnquiryModal from "@/components/EnquiryModal";
 import SiteVisitModal from "@/components/SiteVisitModal";
 import BrochureModal from "@/components/BrochureModal";
 
 export default function ResidentialPlotsNorthGoaContent() {
-  const [isRegisterOpen, setIsRegisterOpen] = useState(false);
   const [isEnquireOpen, setIsEnquireOpen] = useState(false);
   const [isSiteVisitOpen, setIsSiteVisitOpen] = useState(false);
   const [isBrochureOpen, setIsBrochureOpen] = useState(false);
@@ -68,7 +66,7 @@ export default function ResidentialPlotsNorthGoaContent() {
 
   const handleOpenRegister = (data = {}) => {
     setModalContext(data);
-    setIsRegisterOpen(true);
+    setIsEnquireOpen(true);
   };
 
   const handleOpenEnquire = (data = {}) => {
@@ -1148,12 +1146,6 @@ export default function ResidentialPlotsNorthGoaContent() {
       />
 
       {/* Interactive Modals */}
-      <RegistrationModal
-        isOpen={isRegisterOpen}
-        onClose={() => setIsRegisterOpen(false)}
-        initialData={modalContext}
-      />
-
       <EnquiryModal
         isOpen={isEnquireOpen}
         onClose={() => setIsEnquireOpen(false)}

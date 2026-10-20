@@ -15,7 +15,7 @@ export default function FloatingCTA() {
           className="hidden sm:flex px-4 py-2.5 rounded-md bg-[#F59E0B] hover:bg-[#D97706] text-slate-950 font-extrabold text-xs uppercase tracking-wider shadow-md hover:shadow-lg transition-all transform hover:-translate-x-0.5 items-center gap-2 cursor-pointer border border-amber-300 active:scale-95"
         >
           <span>✨</span>
-          <span>PRIORITY REGISTRATION</span>
+          <span>GET PROJECT DETAILS</span>
         </button>
 
         {/* WhatsApp Button */}
@@ -44,7 +44,7 @@ export default function FloatingCTA() {
       <EnquiryModal
         isOpen={modalOpen}
         onClose={() => setModalOpen(false)}
-        title="Priority Plot Registration"
+        title="Get Project Details"
       />
     </>
   );

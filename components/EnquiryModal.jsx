@@ -2,29 +2,57 @@
 
 import { useState } from 'react';
 
-export default function EnquiryModal({ isOpen, onClose, title = "Download Brochure & Price List" }) {
+const API_URL = process.env.NEXT_PUBLIC_CRM_API_URL || 'http://localhost:5011';
+
+export default function EnquiryModal({ isOpen, onClose, title = "Get Project Details" }) {
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
     email: '',
-    plotSize: 'Graama (Starts 321.72 Sq. Yards)',
+    message: '',
   });
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
 
   if (!isOpen) return null;
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setSubmitted(true);
-    setTimeout(() => {
-      setSubmitted(false);
-      onClose();
-    }, 2500);
+    setLoading(true);
+    setError('');
+    try {
+      const res = await fetch(`${API_URL}/api/enquiries/public`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: formData.name,
+          phone: formData.phone,
+          email: formData.email,
+          message: formData.message,
+          page: `Vedic City Graama - ${title} (${window.location.pathname})`,
+        }),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok || data.success === false) {
+        throw new Error(data.message || 'Something went wrong. Please try again.');
+      }
+      setSubmitted(true);
+      setFormData({ name: '', phone: '', email: '', message: '' });
+      setTimeout(() => {
+        setSubmitted(false);
+        onClose();
+      }, 2500);
+    } catch (err) {
+      setError(err.message || 'Something went wrong. Please try again.');
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
     <div className="fixed inset-0 bg-slate-900/70 backdrop-blur-sm z-50 flex items-center justify-center p-4" onClick={onClose}>
-      <div className="bg-white rounded-xl shadow-2xl border border-slate-200 max-w-lg w-full overflow-hidden relative" onClick={(e) => e.stopPropagation()}>
+      <div className="bg-white rounded-xl shadow-2xl border border-slate-200 max-w-sm w-full overflow-hidden relative" onClick={(e) => e.stopPropagation()}>
         
         {/* Modal Header */}
         <div className="bg-[#065F46] text-white p-5 text-center relative">
@@ -49,9 +77,9 @@ export default function EnquiryModal({ isOpen, onClose, title = "Download Brochu
           {submitted ? (
             <div className="text-center py-8">
               <div className="text-4xl mb-3">✅</div>
-              <h4 className="text-xl font-bold text-slate-800 mb-2">Request Received Successfully!</h4>
+              <h4 className="text-xl font-bold text-slate-800 mb-2">Thank You!</h4>
               <p className="text-sm text-slate-600">
-                Thank you. Our authorized property advisor will contact you within 15 minutes with the verified documents.
+                Thank you. Our property advisor will contact you shortly with the project details.
               </p>
             </div>
           ) : (
@@ -99,24 +127,26 @@ export default function EnquiryModal({ isOpen, onClose, title = "Download Brochu
 
               <div>
                 <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
-                  Preferred Project
+                  Message *
                 </label>
-                <select
-                  className="w-full px-3.5 py-2.5 text-sm border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#059669] bg-white text-slate-800"
-                  value={formData.plotSize}
-                  onChange={(e) => setFormData({ ...formData, plotSize: e.target.value })}
-                >
-                  <option value="Graama (Starts 321.72 Sq. Yards)">Graama (321.72+ Sq. Yds - 86 Plots)</option>
-                  <option value="Soma (77 Acres Spiritual Living)">Soma (Spiritual Vedic Living)</option>
-                  <option value="Praana (140 Acres Farm Land)">Praana (140-Acre Farm Land & Retreat)</option>
-                </select>
+                <textarea
+                  required
+                  rows={3}
+                  placeholder="Tell us what you would like to know"
+                  className="w-full px-3.5 py-2.5 text-sm border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#059669] focus:border-transparent text-slate-800"
+                  value={formData.message}
+                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                />
               </div>
+
+              {error && <p className="text-xs text-red-600 font-medium">{error}</p>}
 
               <button
                 type="submit"
-                className="w-full py-3 bg-gradient-to-r from-[#059669] to-[#047857] hover:from-[#047857] hover:to-[#065F46] text-white font-bold rounded-md shadow transition duration-200 mt-2"
+                disabled={loading}
+                className="w-full py-3 disabled:opacity-60 bg-gradient-to-r from-[#059669] to-[#047857] hover:from-[#047857] hover:to-[#065F46] text-white font-bold rounded-md shadow transition duration-200 mt-2"
               >
-                Instant Access Now →
+                {loading ? 'Submitting...' : 'Get Project Details →'}
               </button>
 
               <p className="text-[10px] text-center text-slate-500">

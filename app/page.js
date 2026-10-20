@@ -91,8 +91,8 @@ export default function HomePage() {
             {/* Main Title */}
             <div>
               <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight font-serif-luxury text-white">
-                RESIDENTIAL PLOTS <br />
-                <span className="text-gold-gradient font-light">IN NORTH GOA</span>
+                RESIDENTIAL PLOTS IN DODAMARG, <br />
+                <span className="text-gold-gradient font-light">MINUTES FROM NORTH GOA</span>
               </h1>
               <p className="text-base sm:text-xl font-editorial italic text-emerald-100/95 mt-1.5">
                 Vedic City • Graama by Ebrix Home and More
@@ -152,11 +152,11 @@ export default function HomePage() {
             {/* Action Buttons: APPLY NOW & EXPLORE MASTER PLAN */}
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-1">
               <button
-                onClick={() => openEnquiry('Apply Now - Priority Plot Registration')}
+                onClick={() => openEnquiry('Get Project Details')}
                 className="w-full sm:w-auto px-9 py-3.5 bg-gradient-to-r from-[#F59E0B] via-[#EAB308] to-[#D97706] hover:from-[#D97706] hover:to-[#B45309] text-slate-950 font-black text-base uppercase tracking-wider rounded-lg shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all flex items-center justify-center gap-2.5 cursor-pointer active:scale-95 border-2 border-amber-300/60 ring-2 ring-amber-400/30"
               >
                 <span>✨</span>
-                <span>APPLY NOW</span>
+                <span>GET PROJECT DETAILS</span>
               </button>
 
               <button
@@ -166,6 +166,13 @@ export default function HomePage() {
                 <span>📑</span>
                 <span>EXPLORE MASTER PLAN →</span>
               </button>
+
+              <a
+                href="https://pradhanmantriawasyojna.org/"
+                className="px-4 py-2 text-xs font-bold uppercase tracking-wider text-white/95 hover:text-white underline underline-offset-4 decoration-white/50 transition text-center"
+              >
+                Apply
+              </a>
             </div>
 
           </div>
@@ -188,8 +195,8 @@ export default function HomePage() {
                 <span>Plot registrations are now open</span>
               </div>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
-                <span>Register now to book your plot.</span>
-                <button onClick={() => openEnquiry('Priority Plot Booking')} className="text-[#059669] font-bold hover:underline cursor-pointer">Book ↗</button>
+                <span>Get project details for your plot.</span>
+                <button onClick={() => openEnquiry('Get Project Details')} className="text-[#059669] font-bold hover:underline cursor-pointer">Get Details ↗</button>
               </div>
             </div>
 
@@ -306,10 +313,10 @@ export default function HomePage() {
               {/* Action Buttons */}
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-3">
                 <button
-                  onClick={() => openEnquiry('Register Your Interest - Vedic City')}
+                  onClick={() => openEnquiry('Get Project Details')}
                   className="px-6 py-3 bg-[#065F46] hover:bg-[#047857] text-white font-bold text-xs uppercase tracking-wider rounded-md shadow transition flex items-center justify-center gap-2 cursor-pointer"
                 >
-                  REGISTER YOUR INTEREST
+                  GET PROJECT DETAILS
                 </button>
                 <button
                   onClick={() => openEnquiry('Download Official Brochure')}
@@ -603,7 +610,7 @@ export default function HomePage() {
       </section>
 
       {/* ========================================================
-          SECTION 6 & 7: PRESS & CASINO INFRASTRUCTURE
+          SECTION 6 & 7: PRESS & INFRASTRUCTURE
           ======================================================== */}
       <section className="py-16 sm:py-20 bg-white border-t border-slate-200">
         <div className="w-full px-4 sm:px-8 lg:px-12 max-w-7xl mx-auto space-y-12">
@@ -625,13 +632,13 @@ export default function HomePage() {
 
           <div className="max-w-4xl mx-auto bg-[#FAF9F6] rounded-xl border border-slate-200 p-6 sm:p-8">
             <span className="text-[11px] font-bold text-[#006B3C] uppercase tracking-wider block mb-1">
-              GOA • TOURISM &amp; ENTERTAINMENT
+              GOA • TOURISM &amp; LEISURE
             </span>
             <h3 className="text-xl sm:text-2xl font-bold text-[#0B192C] font-serif mb-2">
-              Goa&apos;s Offshore Casino Landscape
+              Goa&apos;s Waterfront Entertainment Hub
             </h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-              Goa&apos;s offshore casino industry is an established part of its tourism and entertainment landscape. Developments surrounding large casino vessels on the Mandovi River have drawn attention to the region&apos;s hospitality sector, infrastructure, and ongoing investment inflows.
+              Goa&apos;s vibrant riverfront leisure and luxury entertainment scene are central to its thriving tourism landscape. Ongoing developments along the Mandovi River continue to drive growth across the region&apos;s hospitality sector, infrastructure, and commercial investment opportunities.
             </p>
           </div>
 
@@ -728,17 +735,14 @@ export default function HomePage() {
       <section id="awards" className="py-16 sm:py-20 bg-white border-t border-slate-200 relative overflow-hidden">
         <div className="w-full px-4 sm:px-8 lg:px-12 max-w-4xl mx-auto text-center">
           <span className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-md text-xs font-bold uppercase tracking-widest text-[#065F46] bg-emerald-50 border border-emerald-200 mb-2.5">
-            🏆 Prestigious Recognition
+            🌿 Wellness Living
           </span>
           <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 font-serif-luxury tracking-tight mb-2">
             WELLNESS &amp; LONGEVITY REAL ESTATE
           </h2>
-          <div className="text-sm font-bold text-[#D97706] uppercase tracking-wider mb-3">
-            Big Impact Awards 2026 • Phuket
-          </div>
           <div className="w-16 h-1 bg-gradient-to-r from-[#059669] to-[#D97706] mx-auto mb-4 rounded-sm"></div>
           <p className="text-sm sm:text-base text-slate-700 leading-relaxed max-w-2xl mx-auto">
-            Recognised for excellence in wellness and longevity real estate development at the prestigious Big Impact Awards 2026, Phuket, presented by BIG FM in partnership with State Bank of India (SBI) and industry leaders.
+            Discover thoughtfully designed wellness and longevity real estate. Explore premium properties built for holistic well-being and supported by experienced industry leaders.
           </p>
         </div>
       </section>

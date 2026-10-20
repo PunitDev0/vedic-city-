@@ -49,7 +49,7 @@ export default function FloatingActions({ onOpenRegister }) {
           className="flex-1 py-2 px-2.5 bg-[#F59E0B] text-slate-950 rounded-md text-xs font-black text-center flex items-center justify-center gap-1 shadow-xs cursor-pointer"
         >
           <Sparkles className="w-3.5 h-3.5" />
-          <span>Register</span>
+          <span>Get Details</span>
         </button>
       </div>
 
@@ -61,7 +61,7 @@ export default function FloatingActions({ onOpenRegister }) {
           className="px-4 py-2.5 rounded-md bg-[#F59E0B] hover:bg-[#D97706] text-slate-950 font-extrabold text-xs uppercase tracking-wider shadow-md hover:shadow-lg transition-all transform hover:-translate-x-0.5 flex items-center gap-2 cursor-pointer border border-amber-300 active:scale-95"
         >
           <Sparkles className="w-4 h-4 text-slate-950" />
-          <span>Priority Registration</span>
+          <span>Get Project Details</span>
         </button>
 
         {/* WhatsApp Button */}
