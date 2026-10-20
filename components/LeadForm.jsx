@@ -27,7 +27,7 @@ export default function LeadForm({ formTitle = "Schedule a Complimentary Site Vi
           {formTitle}
         </h3>
         <p className="text-sm text-slate-600 mt-2 max-w-xl mx-auto">
-          Vedic City • Graama Enclave. Complimentary pickup coordinated from Manohar International Airport (Mopa) or Pernem Railway Station.
+          Vedic City • Graama. Complimentary pickup coordinated from Manohar International Airport (Mopa) or Pernem Railway Station.
         </p>
       </div>
 
@@ -89,15 +89,15 @@ export default function LeadForm({ formTitle = "Schedule a Complimentary Site Vi
 
             <div>
               <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
-                Preferred Enclave
+                Preferred Project
               </label>
               <select
                 className="w-full px-3.5 py-2.5 text-sm border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#059669] text-slate-900 bg-white"
                 value={formData.plotType}
                 onChange={(e) => setFormData({ ...formData, plotType: e.target.value })}
               >
-                <option value="Graama (Starts 321.72 Sq. Yards)">Graama Enclave (Residential Plots 321.72+ Sq. Yds)</option>
-                <option value="Soma (77 Acres Spiritual Living)">Soma Enclave (Spiritual Vedic Living)</option>
+                <option value="Graama (Starts 321.72 Sq. Yards)">Graama (Residential Plots 321.72+ Sq. Yds)</option>
+                <option value="Soma (77 Acres Spiritual Living)">Soma (Spiritual Vedic Living)</option>
                 <option value="Praana (140 Acres Farm Land)">Praana (140-Acre Farm Land & Retreat)</option>
               </select>
             </div>

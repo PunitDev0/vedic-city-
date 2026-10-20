@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Statutory Disclaimer | Pradhan Mantri Awas Yojana - Vedic City Goa Plots",
+  title: "Statutory Disclaimer | Vedic City Goa Plots",
   description: "Statutory disclaimer for Vedic City, a residential plotted development at NH-66, Dodamarg, Sindhudurg, Maharashtra. MahaRERA Reg. No. PP1310002502621."
 };
 
@@ -30,7 +30,7 @@ export default function DisclaimerPage() {
           <section className="space-y-2">
             <h2 className="text-base font-bold text-slate-900 font-serif">1. General Information Only</h2>
             <p>
-              The content on pradhanmantriawasyojna.org (the “Website”) is provided for general information about Vedic City and its residential plotted enclave Graama, developed and promoted by Ebrix Home and More (Ebrix Infratech Real Estate LLP) at NH-66, near Pathrodevi Border Checkpoint, Dodamarg, Sindhudurg, Maharashtra (MahaRERA Reg. No. PP1310002502621). It does not constitute an offer, invitation, contract, advertisement or solicitation to buy or sell any plot.
+              The content on pradhanmantriawasyojna.org (the “Website”) is provided for general information about Vedic City and its residential plotted development Graama, developed and promoted by Ebrix Home and More (Ebrix Infratech Real Estate LLP) at NH-66, near Pathrodevi Border Checkpoint, Dodamarg, Sindhudurg, Maharashtra (MahaRERA Reg. No. PP1310002502621). It does not constitute an offer, invitation, contract, advertisement or solicitation to buy or sell any plot.
               All bookings and sales are governed only by the Application Form, Allotment Letter and Agreement for Sale signed between the buyer and the Company.
             </p>
           </section>

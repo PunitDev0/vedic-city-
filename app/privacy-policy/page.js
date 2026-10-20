@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Privacy Policy | Pradhan Mantri Awas Yojana - Vedic City Goa Plots",
+  title: "Privacy Policy | Vedic City Goa Plots",
   description: "Privacy policy for Vedic City, a residential plotted development at NH-66, Dodamarg, Sindhudurg, Maharashtra. MahaRERA Reg. No. PP1310002502621."
 };
 
@@ -30,7 +30,7 @@ export default function PrivacyPolicyPage() {
           <section className="space-y-2">
             <h2 className="text-base font-bold text-slate-900 font-serif">1. Overview &amp; Data Fiduciary</h2>
             <p>
-              This Privacy Policy explains how Vedic City and its official property developer Ebrix Home and More (Ebrix Infratech Real Estate LLP) (“Company”, “we”, “us”) collect, use, share and protect your personal data when you use <a href="https://pradhanmantriawasyojna.org" className="text-[#065F46] underline">pradhanmantriawasyojna.org</a> (the “Website”), which provides information about Vedic City and its residential plotted enclave Graama, located at NH-66, near Pathrodevi Border Checkpoint, Dodamarg, Sindhudurg, Maharashtra (MahaRERA Reg. No. PP1310002502621).
+              This Privacy Policy explains how Vedic City and its official property developer Ebrix Home and More (Ebrix Infratech Real Estate LLP) (“Company”, “we”, “us”) collect, use, share and protect your personal data when you use <a href="https://pradhanmantriawasyojna.org" className="text-[#065F46] underline">pradhanmantriawasyojna.org</a> (the “Website”), which provides information about Vedic City and its residential plotted development Graama, located at NH-66, near Pathrodevi Border Checkpoint, Dodamarg, Sindhudurg, Maharashtra (MahaRERA Reg. No. PP1310002502621).
               For the purposes of applicable Indian data protection law, we act as the Data Fiduciary for the personal data you submit through this Website.
             </p>
           </section>

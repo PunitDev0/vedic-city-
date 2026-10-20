@@ -24,7 +24,7 @@ export default function Header() {
           <div className="w-full flex flex-col md:flex-row items-center justify-between gap-1 sm:gap-1.5">
             <div className="flex items-center flex-wrap justify-center gap-2 sm:gap-6 text-white/95 text-center">
               <span className="hidden md:inline-flex items-center gap-1.5 font-bold text-[#FDE68A]">
-                🏛️ Vedic City • Graama Enclave
+                🏛️ Vedic City • Graama
               </span>
               <span className="hidden lg:inline-block text-emerald-200/60">|</span>
               <span className="hidden lg:inline-block text-emerald-100 font-medium">
@@ -87,14 +87,6 @@ export default function Header() {
             {/* Govt Logos */}
             <div className="flex items-center gap-2 sm:gap-3 shrink-0">
               <Link href="/" className="flex items-center gap-2 sm:gap-3" aria-label="Home">
-                <div className="relative h-7 sm:h-10 w-14 sm:w-20 shrink-0">
-                  <img
-                    alt="Pradhan Mantri Awas Yojana - Urban"
-                    src="/images/pmay-logo-transparent.png"
-                    className="object-contain h-full w-full"
-                  />
-                </div>
-                <div className="h-5 sm:h-7 w-px bg-slate-200"></div>
                 <div className="relative h-7 sm:h-10 w-12 sm:w-16 shrink-0">
                   <img
                     alt="Swachh Bharat - Ek Kadam Swachhata Ki Ore"
@@ -123,7 +115,7 @@ export default function Header() {
                     Vedic City
                   </span>
                   <span className="text-[8.5px] sm:text-[9.5px] font-medium text-slate-500 leading-tight">
-                    Graama Enclave • By Ebrix Home and More
+                    Graama • By Ebrix Home and More
                   </span>
                 </div>
               </Link>
@@ -139,7 +131,6 @@ export default function Header() {
               <a href="https://maharera.maharashtra.gov.in" target="_blank" rel="noopener noreferrer" className="hover:text-[#059669] hover:font-semibold transition py-1 relative">RERA License</a>
               <Link className="hover:text-[#059669] hover:font-semibold transition py-1 relative" href="/#amenities">Amenities</Link>
               <Link className="hover:text-[#059669] hover:font-semibold transition py-1 relative" href="/#awards">Awards</Link>
-              <Link className="hover:text-[#059669] hover:font-semibold transition py-1 relative" href="/#pmay">PMAY Information</Link>
               <Link className="hover:text-[#059669] hover:font-semibold transition py-1 relative" href="/#contact">Contact Us</Link>
             </nav>
 
@@ -196,11 +187,11 @@ export default function Header() {
           <div className="overflow-hidden whitespace-nowrap flex-1">
             <div className="animate-marquee inline-flex items-center gap-8 text-xs sm:text-[13px] font-medium tracking-wide text-white/95" style={{ animationDuration: '160s' }}>
               <span className="inline-flex items-center gap-2">
-                <strong>PROJECT:</strong> <strong className="text-[#FDE68A]">VEDIC CITY — GRAAMA ENCLAVE</strong> (Developed by <strong>Ebrix Home and More</strong>)
+                <strong>PROJECT:</strong> <strong className="text-[#FDE68A]">VEDIC CITY — GRAAMA</strong> (Developed by <strong>Ebrix Home and More</strong>)
               </span>
               <span className="text-[#FDE68A]">✦</span>
               <span className="inline-flex items-center gap-2">
-                <strong>IMPORTANT DATES:</strong> Last Date: <strong className="text-[#FDE68A]">29 Nov</strong> | Allotment Date: <strong className="text-[#FDE68A]">01 Dec</strong>
+                <strong>REGISTRATIONS:</strong> Plot registrations are now open
               </span>
               <span className="text-[#FDE68A]">✦</span>
               <span className="inline-flex items-center gap-2">
@@ -237,7 +228,6 @@ export default function Header() {
             <a href="https://maharera.maharashtra.gov.in" target="_blank" rel="noopener noreferrer" className="block text-sm font-semibold text-slate-800 hover:text-[#059669] py-1 border-b border-slate-100">🏛️ MahaRERA: PP1310002502621 ↗</a>
             <Link onClick={() => setMobileMenuOpen(false)} href="/#amenities" className="block text-sm font-semibold text-slate-800 hover:text-[#059669] py-1 border-b border-slate-100">Amenities & Lifestyle</Link>
             <Link onClick={() => setMobileMenuOpen(false)} href="/#awards" className="block text-sm font-semibold text-slate-800 hover:text-[#059669] py-1 border-b border-slate-100">Awards & Honours</Link>
-            <Link onClick={() => setMobileMenuOpen(false)} href="/#pmay" className="block text-sm font-semibold text-slate-800 hover:text-[#059669] py-1 border-b border-slate-100">PMAY Information</Link>
             <Link onClick={() => setMobileMenuOpen(false)} href="/disclaimer" className="block text-sm font-semibold text-slate-800 hover:text-[#059669] py-1 border-b border-slate-100">Statutory Disclaimer</Link>
             <Link onClick={() => setMobileMenuOpen(false)} href="/privacy-policy" className="block text-sm font-semibold text-slate-800 hover:text-[#059669] py-1 border-b border-slate-100">Privacy Policy</Link>
             

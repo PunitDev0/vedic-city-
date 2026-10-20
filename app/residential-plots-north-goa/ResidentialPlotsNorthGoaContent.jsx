@@ -129,7 +129,7 @@ export default function ResidentialPlotsNorthGoaContent() {
       title: "Assagao Residential Land for Sale",
       tag: "Premium Address",
       desc: "Assagao is one of North Goa’s best-known residential addresses, famous for its leafy lanes and premium villas. Assagao residential land for sale is typically priced at a premium, reflecting its reputation and limited supply.",
-      highlight: "High-value luxury villa enclaves & designer dining",
+      highlight: "High-value luxury villa communities & designer dining",
       image: "/images/assagao-plots-goa.jpg",
     },
     {

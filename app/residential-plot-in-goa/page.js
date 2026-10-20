@@ -25,7 +25,7 @@ export default function ResidentialPlotPage() {
       a: "Yes. The project is registered under MahaRERA with registration number PP1310002502621. You can verify details directly at maharera.maharashtra.gov.in."
     },
     {
-      q: "Who is the property developer of Vedic City and Graama Enclave?",
+      q: "Who is the property developer of Vedic City and Graama?",
       a: "The project is developed by Ebrix Home and More (Ebrix Infratech Real Estate LLP), a developer dedicated to clear freehold titles, statutory MahaRERA compliance, and world-class gated infrastructure."
     },
     {
@@ -86,7 +86,7 @@ export default function ResidentialPlotPage() {
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center space-y-4">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md text-xs font-bold bg-[#065F46] text-[#FDE68A] border border-emerald-500/40">
-            <span>Vedic City • Graama Enclave by Ebrix Home and More</span>
+            <span>Vedic City • Graama by Ebrix Home and More</span>
           </div>
 
           <h1 className="text-3xl sm:text-5xl font-black font-serif-luxury tracking-tight">
@@ -94,7 +94,7 @@ export default function ResidentialPlotPage() {
           </h1>
 
           <p className="text-sm sm:text-base text-slate-200 max-w-2xl mx-auto leading-relaxed">
-            Welcome to Graama Enclave at Vedic City, developed by Ebrix Home and More. A legally approved plotted development where you can build your luxury holiday home or hold prime land along the thriving North Goa transit corridor.
+            Welcome to Graama at Vedic City, developed by Ebrix Home and More. A legally approved plotted development where you can build your luxury holiday home or hold prime land along the thriving North Goa transit corridor.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
@@ -122,7 +122,7 @@ export default function ResidentialPlotPage() {
               Plotted Living
             </span>
             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 font-serif-luxury mt-2">
-              The Vision of Vedic City &amp; Graama Enclave
+              The Vision of Vedic City &amp; Graama
             </h2>
             <div className="w-16 h-1 bg-gradient-to-r from-[#059669] to-[#D97706] mx-auto mt-2 mb-3 rounded-sm"></div>
             <p className="text-sm text-slate-600">
@@ -188,7 +188,7 @@ export default function ResidentialPlotPage() {
         </div>
       </section>
 
-      {/* Three Enclaves */}
+      {/* Three Projects */}
       <section className="py-16 sm:py-20 bg-slate-50 border-t border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-12">
@@ -228,11 +228,11 @@ export default function ResidentialPlotPage() {
                 ⭐ MahaRERA Registered
               </span>
               <span className="text-[11px] font-bold text-slate-500 uppercase">15 Acres</span>
-              <h3 className="text-xl font-bold text-slate-900 font-serif mt-1">Graama Enclave</h3>
+              <h3 className="text-xl font-bold text-slate-900 font-serif mt-1">Graama</h3>
               <div className="text-xs font-bold text-[#065F46] mb-1">Residential Plots by Ebrix Home and More</div>
               <div className="text-[11px] font-semibold text-slate-500 mb-2">Starts 321.72 Sq. Yards • 86 Exclusive Plots</div>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Graama is the signature residential enclave of Vedic City, developed by <strong>Ebrix Home and More</strong>. It covers 15 acres and offers strictly 86 exclusive Vastu-compliant plots starting from 321.72 sq yards with 12m wide internal roads. Expected possession is December 2028.
+                Graama is the signature residential development of Vedic City, developed by <strong>Ebrix Home and More</strong>. It covers 15 acres and offers strictly 86 exclusive Vastu-compliant plots starting from 321.72 sq yards with 12m wide internal roads. Expected possession is December 2028.
               </p>
               <button
                 onClick={() => openEnquiry('Book Graama 321.72 Sq Yds Plot')}

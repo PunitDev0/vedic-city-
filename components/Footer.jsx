@@ -51,8 +51,6 @@ export default function Footer({ onOpenRegister, onOpenEnquire, onOpenBrochure, 
             <span>•</span>
             <a href="/#amenities" className="hover:text-white">Amenities</a>
             <span>•</span>
-            <a href="/#pmay" className="hover:text-white">PMAY Info</a>
-            <span>•</span>
             <a href="/disclaimer" className="text-[#FDE68A] underline font-medium">Disclaimer</a>
             <span>•</span>
             <a href="/privacy-policy" className="text-[#FDE68A] underline font-medium">Privacy Policy</a>
@@ -130,11 +128,6 @@ export default function Footer({ onOpenRegister, onOpenEnquire, onOpenBrochure, 
                   </a>
                 </li>
                 <li>
-                  <a href="/#pmay" className="hover:text-white transition flex items-center gap-1.5">
-                    <ArrowRight className="w-3 h-3 text-[#FDE68A] shrink-0" /> PMAY Info
-                  </a>
-                </li>
-                <li>
                   <a href="/disclaimer" className="hover:text-[#FDE68A] transition flex items-center gap-1.5 text-emerald-200 font-medium">
                     <ArrowRight className="w-3 h-3 text-[#FDE68A] shrink-0" /> Disclaimer
                   </a>
@@ -202,7 +195,7 @@ export default function Footer({ onOpenRegister, onOpenEnquire, onOpenBrochure, 
                   <text x="80" y="94" fill="#0284C7" fontSize="7" fontStyle="italic" fontWeight="600">Tilari River Corridor</text>
 
                   <rect x="175" y="24" width="48" height="42" rx="3" fill="#FEF3C7" stroke="#F59E0B" strokeWidth="1.2" strokeDasharray="3 2" />
-                  <text x="178" y="34" fill="#92400E" fontSize="7" fontWeight="bold">PLOTS ENCLAVE</text>
+                  <text x="178" y="34" fill="#92400E" fontSize="7" fontWeight="bold">PLOTS</text>
                   <text x="178" y="44" fill="#B45309" fontSize="6.5">15 Acres • 86 Plots</text>
                   <text x="178" y="53" fill="#047857" fontSize="6" fontWeight="bold">RERA APPROVED</text>
 
@@ -267,8 +260,8 @@ export default function Footer({ onOpenRegister, onOpenEnquire, onOpenBrochure, 
               <p>
                 This content is for general property information and is not a guarantee of appreciation, rental income or
                 investment returns. Buyers should independently verify property title, applicable approvals, development
-                commitments and transaction terms. Any claimed government-scheme benefit or PMAY affiliation must be supported
-                by valid official documentation.
+                commitments and transaction terms. Any claimed government-scheme benefit must be supported by valid official
+                documentation.
               </p>
               <p>
                 All plot areas, internal road dimensions (advertised at 12 metres), project timeline (expected possession Dec 2028),

@@ -36,7 +36,7 @@ export default function EnquiryModal({ isOpen, onClose, title = "Download Brochu
             ✕
           </button>
           <span className="inline-block px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-[#FDE68A] text-[#065F46] tracking-wider uppercase mb-1">
-            Vedic City • Graama Enclave | Ebrix Home &amp; More
+            Vedic City • Graama | Ebrix Home &amp; More
           </span>
           <h3 className="text-lg font-bold text-white font-serif">{title}</h3>
           <p className="text-xs text-emerald-100 mt-1">
@@ -99,15 +99,15 @@ export default function EnquiryModal({ isOpen, onClose, title = "Download Brochu
 
               <div>
                 <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
-                  Plot Enclave
+                  Preferred Project
                 </label>
                 <select
                   className="w-full px-3.5 py-2.5 text-sm border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#059669] bg-white text-slate-800"
                   value={formData.plotSize}
                   onChange={(e) => setFormData({ ...formData, plotSize: e.target.value })}
                 >
-                  <option value="Graama (Starts 321.72 Sq. Yards)">Graama Enclave (321.72+ Sq. Yds - 86 Plots)</option>
-                  <option value="Soma (77 Acres Spiritual Living)">Soma Enclave (Spiritual Vedic Living)</option>
+                  <option value="Graama (Starts 321.72 Sq. Yards)">Graama (321.72+ Sq. Yds - 86 Plots)</option>
+                  <option value="Soma (77 Acres Spiritual Living)">Soma (Spiritual Vedic Living)</option>
                   <option value="Praana (140 Acres Farm Land)">Praana (140-Acre Farm Land & Retreat)</option>
                 </select>
               </div>

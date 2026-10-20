@@ -17,12 +17,12 @@ export default function HomePage() {
 
   const homeFaqs = [
     {
-      q: "What is Vedic City and Graama Enclave?",
-      a: "Vedic City is a master-planned luxury plotted development situated directly along the NH-66 highway corridor in Dodamarg, Sindhudurg, Maharashtra, right adjacent to the North Goa border and approximately 20-22 minutes from Manohar International Airport (Mopa). Graama Enclave is its premier 15-acre residential plotted development offering 86 exclusive freehold plots."
+      q: "What is Vedic City and Graama?",
+      a: "Vedic City is a master-planned luxury plotted development situated directly along the NH-66 highway corridor in Dodamarg, Sindhudurg, Maharashtra, right adjacent to the North Goa border and approximately 20-22 minutes from Manohar International Airport (Mopa). Graama is its premier 15-acre residential plotted development offering 86 exclusive freehold plots."
     },
     {
-      q: "Who is the property developer of Vedic City and Graama Enclave?",
-      a: "Vedic City and Graama Enclave are developed and promoted by Ebrix Home and More (Ebrix Infratech Real Estate LLP), a developer dedicated to transparent land title, statutory MahaRERA compliance, and world-class gated infrastructure."
+      q: "Who is the property developer of Vedic City and Graama?",
+      a: "Vedic City and Graama are developed and promoted by Ebrix Home and More (Ebrix Infratech Real Estate LLP), a developer dedicated to transparent land title, statutory MahaRERA compliance, and world-class gated infrastructure."
     },
     {
       q: "Is Vedic City officially registered with MahaRERA?",
@@ -30,11 +30,11 @@ export default function HomePage() {
     },
     {
       q: "What are the plot sizes and how many plots are available in Graama?",
-      a: "The Graama residential enclave spans approximately 15 acres and contains strictly 86 exclusive residential plots starting from 321.72 sq. yards (approx. 300 sq. yards onwards). Developed by Ebrix Home and More, this low-density layout guarantees maximum privacy, wide 12m roads, and generous green spaces."
+      a: "The Graama residential development spans approximately 15 acres and contains strictly 86 exclusive residential plots starting from 321.72 sq. yards (approx. 300 sq. yards onwards). Developed by Ebrix Home and More, this low-density layout guarantees maximum privacy, wide 12m roads, and generous green spaces."
     },
     {
       q: "What is the expected possession timeline for Graama?",
-      a: "The expected completion and possession timeline for the Graama residential enclave is December 2028, in accordance with MahaRERA registration records and statutory agreements."
+      a: "The expected completion and possession timeline for the Graama residential development is December 2028, in accordance with MahaRERA registration records and statutory agreements."
     },
     {
       q: "How close is Vedic City to Goa's beaches, airport, and transit hubs?",
@@ -43,10 +43,6 @@ export default function HomePage() {
     {
       q: "What community amenities are developed by Ebrix Home and More at Graama?",
       a: "The project includes a luxury clubhouse, resort-style open-air swimming pool with sundeck, meditation gazebos, landscaped green avenues, 12-metre wide internal paved roads, 3-tier gated security with 24x7 CCTV, Vastu-compliant plot alignment, and underground utility trenches."
-    },
-    {
-      q: "Is this website affiliated with the government's Pradhan Mantri Awas Yojana scheme?",
-      a: "No. As clearly stated in our statutory disclaimer, this website and project are not owned by, affiliated with, or endorsed by the Government of India or any government body. The mention of PMAY is strictly educational. Vedic City is a private luxury plotted real estate development developed by Ebrix Home and More."
     }
   ];
 
@@ -73,7 +69,7 @@ export default function HomePage() {
             {/* Top Badges */}
             <div className="flex flex-wrap items-center gap-2">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md text-xs font-bold bg-amber-500/25 text-[#FDE68A] border border-amber-400/40 backdrop-blur-md">
-                ✨ Vedic City • Graama Enclave
+                ✨ Vedic City • Graama
               </span>
               <span className="inline-flex items-center gap-1 px-3 py-1 rounded-md text-xs font-medium bg-emerald-950/80 text-emerald-100 border border-emerald-400/30 backdrop-blur-md">
                 🏢 Developer: <strong className="text-white ml-1">Ebrix Home and More</strong>
@@ -95,17 +91,17 @@ export default function HomePage() {
             {/* Main Title */}
             <div>
               <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight font-serif-luxury text-white">
-                PRADHAN MANTRI <br />
-                <span className="text-gold-gradient font-light">AWAS YOJNA</span>
+                RESIDENTIAL PLOTS <br />
+                <span className="text-gold-gradient font-light">IN NORTH GOA</span>
               </h1>
               <p className="text-base sm:text-xl font-editorial italic text-emerald-100/95 mt-1.5">
-                Vedic City • Graama Enclave by Ebrix Home and More
+                Vedic City • Graama by Ebrix Home and More
               </p>
             </div>
 
             {/* Description with Underlined/Bold Highlights */}
             <p className="text-white text-sm sm:text-base lg:text-[16px] leading-relaxed max-w-2xl font-medium drop-shadow-sm">
-              Welcome to <strong className="text-[#FDE68A] font-bold">Graama Enclave at Vedic City</strong>, developed by <strong className="text-white font-bold underline decoration-[#FDE68A]/70 underline-offset-2">Ebrix Home and More</strong>. Spread across <strong className="text-white font-bold underline decoration-[#FDE68A]/60 underline-offset-2">approximately 15 acres</strong> with only <strong className="text-white font-bold underline decoration-[#FDE68A]/60 underline-offset-2">86 exclusive residential plots</strong>. Located directly along the <strong className="text-[#FDE68A] font-bold">NH-66 corridor</strong> near the North Goa border, just <strong className="text-white font-bold underline decoration-[#FDE68A]/60 underline-offset-2">20 minutes from Manohar International Airport (Mopa)</strong>. Rooted in Indian heritage, wellness, and scenic Konkan nature.
+              Welcome to <strong className="text-[#FDE68A] font-bold">Graama at Vedic City</strong>, developed by <strong className="text-white font-bold underline decoration-[#FDE68A]/70 underline-offset-2">Ebrix Home and More</strong>. Spread across <strong className="text-white font-bold underline decoration-[#FDE68A]/60 underline-offset-2">approximately 15 acres</strong> with only <strong className="text-white font-bold underline decoration-[#FDE68A]/60 underline-offset-2">86 exclusive residential plots</strong>. Located directly along the <strong className="text-[#FDE68A] font-bold">NH-66 corridor</strong> near the North Goa border, just <strong className="text-white font-bold underline decoration-[#FDE68A]/60 underline-offset-2">20 minutes from Manohar International Airport (Mopa)</strong>. Rooted in Indian heritage, wellness, and scenic Konkan nature.
             </p>
 
             {/* 3 Glass Cards */}
@@ -140,16 +136,12 @@ export default function HomePage() {
               <span className="flex items-center gap-1.5">
                 <span className="w-2 h-2 rounded-full bg-[#10B981] animate-pulse shrink-0"></span>
                 <span className="text-xs sm:text-sm font-black font-serif tracking-wide text-white">
-                  GRAAMA ENCLAVE: LIMITED <strong className="text-[#FDE68A] font-extrabold">86 PLOTS</strong> ONLY
+                  GRAAMA: LIMITED <strong className="text-[#FDE68A] font-extrabold">86 PLOTS</strong> ONLY
                 </span>
               </span>
               <span className="text-white/30 hidden xs:inline">•</span>
               <span className="text-xs sm:text-sm font-semibold text-white/95">
-                Last Date: <strong className="text-[#FDE68A] font-bold">29 Nov</strong>
-              </span>
-              <span className="text-white/30 hidden xs:inline">•</span>
-              <span className="text-xs sm:text-sm font-semibold text-white/95">
-                Allotment: <strong className="text-[#FDE68A] font-bold">01 Dec</strong>
+                Plot registrations now open
               </span>
               <span className="text-white/30 hidden sm:inline">•</span>
               <span className="text-xs text-[#FDE68A] hidden sm:inline font-semibold">
@@ -189,11 +181,11 @@ export default function HomePage() {
             
             <div className="bg-white rounded-xl p-5 sm:p-6 border border-slate-200 shadow-2xs hover:shadow-md transition flex flex-col justify-between">
               <div>
-                <span className="text-[11px] font-bold uppercase tracking-wider text-slate-500 block">LAST DATE OF REGISTRATION</span>
-                <h3 className="text-xl sm:text-2xl font-black text-slate-900 font-serif mt-1">29 November 2026</h3>
+                <span className="text-[11px] font-bold uppercase tracking-wider text-slate-500 block">PLOT REGISTRATIONS</span>
+                <h3 className="text-xl sm:text-2xl font-black text-slate-900 font-serif mt-1">Now Open</h3>
               </div>
-              <div className="my-3 text-[#059669] font-mono font-bold text-sm sm:text-base flex items-center gap-1.5">
-                <span>⏱ 44d : 12h : 14m : 32s</span>
+              <div className="my-3 text-[#059669] font-bold text-sm sm:text-base flex items-center gap-1.5">
+                <span>Plot registrations are now open</span>
               </div>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <span>Register now to book your plot.</span>
@@ -217,7 +209,7 @@ export default function HomePage() {
 
             <div className="bg-white rounded-xl p-5 sm:p-6 border border-slate-200 shadow-2xs hover:shadow-md transition flex flex-col justify-between">
               <div>
-                <span className="text-[11px] font-bold uppercase tracking-wider text-slate-500 block">GRAAMA ENCLAVE</span>
+                <span className="text-[11px] font-bold uppercase tracking-wider text-slate-500 block">GRAAMA</span>
                 <h3 className="text-xl sm:text-2xl font-black text-slate-900 font-serif mt-1">Starts 321.72 Yds</h3>
               </div>
               <div className="my-3 text-xs text-slate-600">
@@ -341,7 +333,7 @@ export default function HomePage() {
                 <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-950/95 via-slate-950/70 to-transparent p-5 text-white flex items-end justify-between gap-3">
                   <div>
                     <span className="text-[10px] font-bold text-[#FDE68A] uppercase tracking-wider block">
-                      MASTER-PLANNED ENCLAVE
+                      MASTER-PLANNED COMMUNITY
                     </span>
                     <span className="text-base sm:text-lg font-bold font-serif">
                       Luxury Plotted Sanctuary
@@ -489,7 +481,7 @@ export default function HomePage() {
 
           <div className="highlights-grid-container">
             <div className="p-5 rounded-lg bg-emerald-50/70 border border-emerald-200">
-              <span className="text-[11px] font-bold uppercase tracking-wider text-[#065F46] block">Project &amp; Enclave</span>
+              <span className="text-[11px] font-bold uppercase tracking-wider text-[#065F46] block">Project &amp; Layout</span>
               <div className="text-base font-bold text-[#065F46] font-serif mt-1">Vedic City • Graama</div>
               <p className="text-[11px] text-emerald-800 mt-1">15 Acres • 86 Exclusive Plots</p>
             </div>
@@ -627,7 +619,7 @@ export default function HomePage() {
               &quot;The GCA first bought land at Tivim... Subsequently, more land for the same project was bought at Maulinguem in Bicholim and Dhargal, where a Sports City was expected to come up.&quot;
             </blockquote>
             <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-              Official press reports highlight upcoming international sports infrastructure, driving massive real estate and capital appreciation in the North Goa &amp; Sindhudurg corridor.
+              Official press reports highlight upcoming international sports infrastructure, driving real estate development and investment potential in the North Goa &amp; Sindhudurg corridor.
             </p>
           </div>
 
@@ -748,63 +740,6 @@ export default function HomePage() {
           <p className="text-sm sm:text-base text-slate-700 leading-relaxed max-w-2xl mx-auto">
             Recognised for excellence in wellness and longevity real estate development at the prestigious Big Impact Awards 2026, Phuket, presented by BIG FM in partnership with State Bank of India (SBI) and industry leaders.
           </p>
-        </div>
-      </section>
-
-      {/* ========================================================
-          SECTION 10: PMAY INFORMATION
-          ======================================================== */}
-      <section id="pmay" className="py-16 sm:py-20 bg-slate-50 border-t border-slate-200 relative">
-        <div className="w-full px-4 sm:px-8 lg:px-12 max-w-5xl mx-auto">
-          <div className="text-center max-w-3xl mx-auto mb-12">
-            <span className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-md text-xs font-bold uppercase tracking-widest text-[#065F46] bg-emerald-50 border border-emerald-200 mb-2.5">
-              🏛️ Public Knowledge &amp; Government Schemes
-            </span>
-            <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 font-serif-luxury tracking-tight">
-              PRADHAN MANTRI AWAS YOJANA (PMAY)
-            </h2>
-            <div className="w-16 h-1 bg-gradient-to-r from-[#059669] to-[#D97706] mx-auto mt-2.5 mb-3 rounded-sm"></div>
-            <p className="text-xs sm:text-sm text-slate-600">
-              Learn about official Government of India housing initiatives, portal links, and statutory guidelines
-            </p>
-          </div>
-
-          <div className="bg-white rounded-xl p-6 sm:p-8 border border-slate-200 shadow-sm space-y-4">
-            <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-              Pradhan Mantri Awas Yojana (PMAY) is a flagship Government of India housing initiative designed to facilitate affordable housing for eligible beneficiaries across urban and rural jurisdictions in accordance with official scheme parameters.
-            </p>
-            <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-              Prospective buyers and citizens can explore official eligibility requirements, subsidy structures, and the digital application process directly through verified Central Government portals:
-            </p>
-
-            <div className="pmay-portals-grid pt-2">
-              <a
-                href="https://pmaymis.gov.in"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-4 rounded-lg bg-emerald-50/70 border border-emerald-200 block hover:bg-emerald-50 transition"
-              >
-                <div className="font-bold text-[#065F46] text-sm">PMAY - Urban (PMAY-U) ↗</div>
-                <div className="text-xs text-slate-600 mt-1">Targeted at municipal &amp; statutory town housing initiatives across India.</div>
-                <div className="text-[11px] font-mono text-[#059669] mt-2 font-semibold">pmaymis.gov.in</div>
-              </a>
-
-              <a
-                href="https://pmayg.nic.in"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-4 rounded-lg bg-emerald-50/70 border border-emerald-200 block hover:bg-emerald-50 transition"
-              >
-                <div className="font-bold text-[#065F46] text-sm">PMAY - Gramin (PMAY-G) ↗</div>
-                <div className="text-xs text-slate-600 mt-1">Targeted at rural development and pucca housing initiatives across rural districts.</div>
-                <div className="text-[11px] font-mono text-[#059669] mt-2 font-semibold">pmayg.nic.in</div>
-              </a>
-            </div>
-
-            <div className="pt-3 border-t border-slate-100 text-[11px] text-slate-500 italic">
-              Notice: Vedic City is an independent private plotted real estate development registered under MahaRERA No. PP1310002502621. Mentions of government initiatives are strictly for public education and transparency.
-            </div>
-          </div>
         </div>
       </section>
 
