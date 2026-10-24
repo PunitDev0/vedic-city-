@@ -3,8 +3,10 @@ import Script from 'next/script';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import FloatingCTA from '@/components/FloatingCTA';
+import CanonicalLink from '@/components/CanonicalLink';
 
 export const metadata = {
+  metadataBase: new URL("https://vediccitygraama.deedivinegroups.com"),
   icons: {
     icon: "/pmay-favicon.png",
   },
@@ -25,6 +27,7 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <meta name="theme-color" content="#07130e" />
+        <CanonicalLink />
         <Script id="gtm" strategy="afterInteractive">
           {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],

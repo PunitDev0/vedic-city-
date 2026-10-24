@@ -4,14 +4,11 @@ export const metadata = {
   title: "Residential Plots in North Goa | RERA Approved Plots",
   description:
     "Explore RERA approved residential plots in North Goa near Mopa Airport, Pernem and Morjim. Clear titles, gated layouts. Book a site visit today.",
-  alternates: {
-    canonical: "https://pradhanmantriawasyojna.org/residential-plots-north-goa",
-  },
   openGraph: {
     title: "Residential Plots in North Goa | RERA Approved Plots",
     description:
       "Explore RERA approved residential plots in North Goa near Mopa Airport, Pernem and Morjim. Clear titles, gated layouts. Book a site visit today.",
-    url: "https://pradhanmantriawasyojna.org/residential-plots-north-goa",
+    url: "https://vediccitygraama.deedivinegroups.com/residential-plots-north-goa",
     siteName: "Vedic City Goa",
     images: [
       {
@@ -96,19 +93,19 @@ const jsonLdBreadcrumb = {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://pradhanmantriawasyojna.org/"
+      "item": "https://vediccitygraama.deedivinegroups.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Residential Plot in Goa",
-      "item": "https://pradhanmantriawasyojna.org/residential-plot-in-goa"
+      "item": "https://vediccitygraama.deedivinegroups.com/residential-plot-in-goa"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Residential Plots in North Goa",
-      "item": "https://pradhanmantriawasyojna.org/residential-plots-north-goa"
+      "item": "https://vediccitygraama.deedivinegroups.com/residential-plots-north-goa"
     }
   ]
 };
@@ -117,7 +114,7 @@ const jsonLdAgent = {
   "@context": "https://schema.org",
   "@type": "RealEstateAgent",
   "name": "Vedic City",
-  "url": "https://pradhanmantriawasyojna.org/",
+  "url": "https://vediccitygraama.deedivinegroups.com/",
   "telephone": "+91-9211494111",
   "address": {
     "@type": "PostalAddress",
